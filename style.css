@@ -4,11 +4,13 @@
 .navbar-1{
     background: #19242D;
     height: 72px;
+    width: 1440px;
 }
 
 .navbar-2{
     background: #202D39;
     height: 72px;
+    width: 1440px;
 }
 
 .line{
@@ -46,6 +48,7 @@ background: #63C7C9;
 .backgr{
 display: flex;
 height: 264px;
+width: 1440px;
 padding: 10px 0px;
 flex-direction: column;
 justify-content: center;
@@ -58,6 +61,7 @@ background: #008AEE;
 }
 
 .white-board{
+    margin-left: 130px;
     display: flex;
     width: 1179px;
     height: 214px;
@@ -141,7 +145,7 @@ line-height: normal;
 }
 
 .image-back{
-/* width: 1440px; */
+ width: 1440px;
 height: 299px;
 flex-shrink: 0;
 background-image: url(/icons/Rectangle\ 100.png);
@@ -151,7 +155,7 @@ background-size: cover;
 }
 
 .highlights{
-    margin-left: 80px;
+    margin-left: 130px;
     display: flex;
 width: 1180px;
 height: 156px;
@@ -195,8 +199,9 @@ line-height: normal;
 }
 
 .product-slider-1{
-margin-left: 80px;
+margin-left: 130px;
 height: 277.747px;
+margin-bottom: 100px;
 
 }
 
@@ -266,6 +271,10 @@ line-height: normal;
 background: none;
 }
 
+.card-text-p-2-2{
+
+}
+
 .carousel-1{
     
     
@@ -298,4 +307,328 @@ font-weight: 700;
 line-height: normal;
 background: none;
 }
+
+.ofer-1{
+    color: #008AEE;
+font-family: Exo 2;
+font-size: 18.78px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+background: none;
+}
+
+.product-slider-2{
+    margin-top: 190px;
+    margin-left: 130px;
+    height: 277.747px;
+    margin-bottom: 80px;
+}
+
+.card-p-2{
+    width: 271px;
+height: 271px;
+margin-right: 130px;
+   
+    border-radius: 25px;
+    background: #5FB865;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+}
+
+.services{
+    margin-top: 190px;
+    margin-left: 130px;
+    height: 277.747px;
+}
+
+.card-s-1{
+    width: 271px;
+height: 271px;
+border-radius: 25px;
+background: #63C7C9;
+box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+}
+
+.card-s-2{
+    width: 271px;
+    height: 271px;
+   
+    border-radius: 25px;
+    
+background: #DC5426;
+box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+}
+
+.card-s-3{
+    width: 271px;
+    height: 271px;
+    border-radius: 25px;
+    background: #E59D48;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+   
+}
+
+.card-s-4{
+    width: 271px;
+    height: 271px;
+    
+    border-radius: 25px;
+background: #BD5FE9;
+box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+}
+
+.services-2{
+    margin-top: 32px;
+    margin-left: 130px;
+ width: 1179px;
+ height: 82px;
+}
+
+.card-s2-2{
+    
+width: 271px;
+height: 82px;
+
+border-radius: 25px;
+border: 2px solid #DC5426;
+
+box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+}
+
+.card-s2-3{
+    width: 271px;
+height: 82px;
+    border-radius: 25px;
+border: 2px solid #5FB865;
+background: #FFF;
+box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+}
+
+.card-s2-4{
+    width: 271px;
+height: 82px;
+    border-radius: 25px;
+border: 2px solid #008AEE;
+background: #FFF;
+box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+}
+
+.card-s2-5{
+    width: 271px;
+height: 82px;
+    border-radius: 25px;
+border: 2px solid #0043EE;
+background: #FFF;
+box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+}
+
+
+.card-title-s2-2{
+    color: #DC5426;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.card-text-s2-2{
+    color: #999;
+text-align: center;
+font-family: Exo 2;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.card-title-s2-3{
+    color: #5FB865;   
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
+
+.card-title-s2-4{
+    color: #008AEE;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.card-title-s2-5{
+    color: #0043EE;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.carousel-item{
+
+/* display: flex;
+width: 594px;
+height: 261px;
+padding: 25px;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+flex-shrink: 0;
+border-radius: 25px;
+background: #FFF;
+box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.08); */
+}
+
+
+.carousel-container {
+    
+    width: 1150px;
+height: 261px;
+}
+
+.carousel {
+    width: 300px;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+}
+
+.carousel-item {
+    display: flex;
+width: 594px;
+height: 261px;
+padding: 25px;
+justify-content: space-between;
+align-items: center;
+flex-shrink: 0;
+    transform: rotateY(0deg);
+    transition: transform 1s;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.messages-2{
+    display: flex;
+width: 594px;
+height: 261px;
+padding: 25px;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+flex-shrink: 0;
+border-radius: 25px;
+background: #a34848;
+box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.08);
+}
+
+.slider-3{
+    width: 1140px;
+
+display:flex;
+flex-shrink: 0;
+justify-content: center;
+align-items: center;
+
+}
+
+.image{
+    margin-bottom: 119px;
+    margin-left: 130px;
+    width: 1179px;
+height: 686.85px;
+flex-shrink: 0;
+}
+
+.footer{
+    width: 1440px;
+height: 300px;
+flex-shrink: 0;
+ background: #202D39;
+}
+
+.for-you{
+    display: flex;
+width: 271px;
+height: 165px;
+padding: 15px;
+margin-left: 130px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 10px;
+background: #19242D;
+}
+
+.card-title-5{
+    color: #FFF;
+font-family: Exo 2;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.text-footer{
+    color: #FFF;
+font-family: Exo 2;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.for-you-1{
+display: flex;
+width: 271px;
+height: 230px;
+padding: 15px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 10px;
+background: #19242D;
+}
+
+.online{
+    margin-left: 130px;
+    display: flex;
+width: 271px;
+height: 49px;
+padding: 15px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+    border-radius: 10px;
+background: #19242D;
+}
+
+.online-text{
+    color: #5FB865;
+font-family: Exo 2;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+    
+
+}
+
+
+
 
