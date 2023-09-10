@@ -41,6 +41,31 @@ $(function(){
   ;
 
 
+  new Glide('.glide-1').mount()
+  var splide = new Splide( '.splide', {
+    type   : 'loop',
+    perPage: 3,
+    autoplay: true,
+  } );
+  
+  splide.mount();
+//   var input = document.querySelector('#options-autoplay-input')
+
+// var glide = new Glide('#options-autoplay', {
+//   autoplay: input.value,
+//   hoverpause: false,
+//   perView: 3
+// })
+
+// input.addEventListener('input', function (event) {
+//   glide.update({
+//     autoplay: (event.target.value != 0) ? event.target.value : false
+//   })
+// })
+
+// glide.mount()
+
+
 //   $('.nav-anime')
 //         .css({"opacity":0})   // Set to 0 as soon as possible – may result in flicker, but it's not hidden for users with no JS (Googlebot for instance!)
 //         .delay(200)           // Wait for a bit so the user notices it fade in
